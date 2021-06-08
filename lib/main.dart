@@ -13,8 +13,9 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://img2.thuthuatphanmem.vn/uploads/2019/01/04/hinh-anh-hot-girl-dep_025104603.jpg'),
+            image: AssetImage(
+                'assets/icons/i_am_rich_app_icon.png'
+            ),
           ),
         ),
       ),
